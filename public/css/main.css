@@ -1,0 +1,69 @@
+/*nav bar stuff*/
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #002E7F;
+    z-index: 1;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+a {
+    color: aliceblue;
+    margin-left: 35px;
+}
+div.nav {
+    background-image: url("http://images4.fanpop.com/image/photos/19600000/Minecraft-minecraft-19670239-1920-1200.jpg");
+    background-size: cover;
+    height: 75px;
+    background-position: top;
+}
+/*main veiw stuff*/
+section.mainVeiw {
+    text-align: center;
+    margin-top: 125px;
+}
+
+div.landing {
+    margin: auto;
+    height: 1200px;
+    width: 1000px;
+   position: relative;
+}
+
+div.landing::after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-image: url(http://images4.fanpop.com/image/photos/19600000/Minecraft-minecraft-19670239-1920-1200.jpg);
+   width: 100%;
+   height: 100%;
+   opacity: .9;
+   z-index: -1;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+div.form {
+    background-color: rgba(100, 100, 100, 0.5);
+    width: 80%;
+    margin: auto;
+}
+
+button {
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #6E747F;
+}

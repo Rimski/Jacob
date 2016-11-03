@@ -10,14 +10,14 @@ app.config(function($routeProvider) {
         templateUrl: "./veiws/signup.html",
         controller: "authController"
     })
-//        .when("/", {
-//        templateUrl: "",
-//        controller: ""
-//    })
-//        .when("/", {
-//        templateUrl: "",
-//        controller: ""
-//    })
+        .when("/games", {
+        templateUrl: "./veiws/games.html",
+        controller: "gameController"
+    })
+        .when("/users", {
+        templateUrl: "./veiws/users.html",
+        controller: "userController"
+    })
 //        .when("/", {
 //        templateUrl: "",
 //        controller: ""

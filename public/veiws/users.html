@@ -1,0 +1,11 @@
+<h1>user page</h1>
+<section>
+   <div class="landing">
+    <div class="form" ng-repeat="user in users">
+       <div>
+        <h1>{{ user.username }}</h1>
+        <img ng-src="{{ user.img }}" alt="">
+        <button ng-if="currentUser.admin === true" ng-click="delete(user)">Delete</button>
+    </div>
+    </div>
+</section>
